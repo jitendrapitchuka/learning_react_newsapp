@@ -14,7 +14,7 @@ import News from './components/News';
 
 
 export default class App extends Component {
-  pageSize=5;
+  pageSize=4;
   apiKey=process.env.REACT_APP_NEWS_API;
   state={
     progress:0
